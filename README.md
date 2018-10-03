@@ -3,7 +3,7 @@
 ## Ideas & Vision
 - SD Vision
 - SD Backlog
-- [SD Ideas](SD/ideas.html)
+- [SD Ideas](https://numbat70.github.io/SD/ideas.html)
 
 
 ## Tool Demos
