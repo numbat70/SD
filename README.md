@@ -3,7 +3,7 @@
 ## Ideas & Vision
 - [SD Vision](vision.html) 
 - [SD Backlog](backlog.html)
-- [SD Ideas](ideas.html) 
+- [SD Ideas](ideas.html)    
 
 
 ## Tool Demos
