@@ -1,0 +1,28 @@
+
+</div>
+	  <div class="col-sm-3">
+		<div class="panel panel-default">
+                <div class="panel-heading">Looking for find new customers</div>
+                <div class="panel-body">
+			<p>Here’s information we think you’ll find really useful for <strong>finding new customers overseas</strong></p>
+                </div>
+		<ul class="list-group">
+		    	<li class="list-group-item">
+			    <h4>Communicating to an international audience </h4>
+			    <p>Communication is an important part of selling overseas so we’ve created a helpful guide to help you overcome language and cultural barriers. </p>
+				<p><a href="https://www.scottish-enterprise.com/services/do-business-outside-scotland/international-communications-review/overview" class="btn btn-default">Read our guide</a></p>
+			</li>
+		   	<li class="list-group-item">
+			    <h4>Let us find customers for your product  </h4>
+			    <p>Search the Enterprise Europe Network database to find you business opportunities in the EU and beyond.  </p>
+				<p><a href="http://www.enterprise-europe.co.uk/content/search/#ie=&rls=com.microsoft%3Aen-GB%3AIE-Address&gfe_rd=cr&ei=tRWLWLTFC8738Ae4zLr4DQ&gws_rd=ssl" class="btn btn-default">Search our database</a></p>
+			</li>
+			<li class="list-group-item">
+			    <h4>5 ecommerce problems – and how to solve them </h4>
+			    <p>Thinking of finding new customers online? Get off to great start as our expert reveals the 5 most common problems with practical advice on how to solve them. </p>
+				<p><a href="https://www.scottish-enterprise.com/knowledge-hub/articles/guide/five-ecommerce-problems--with-solutions" class="btn btn-default">Read more</a></p>
+			</li>
+		  </ul>
+            </div>
+	</div>
+	    </div>

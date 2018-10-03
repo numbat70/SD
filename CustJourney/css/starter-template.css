@@ -1,0 +1,14 @@
+
+
+.navbar{background-color:white!important;color:black}
+#primary{padding:1em;color:white;background-color:green;border:none;font-weight:bold}
+#secondary{padding:1em;color:white;background-color:grey;border:none;font-weight:bold}
+.article{padding:0.5em 1em;color:black;background-color:grey;border:none;font-weight:bold}
+.back-link{margin-right:2em}
+.se_radio li{list-style:none}
+.active{background-color:grey!important}
+.starter-template{color:#333;background-color:#e1e1e1;margin-bottom:1em;padding:1em}
+.content-template{color:#333;background-color:#e1e1e1;margin-bottom:1em;padding:1em 2em}
+p{font-size:16px}
+.grey-content{background-color:#e1e1e1}
+.bar{background-color:#e1e1e1;padding:1em 0;margin:1em 0;vertical-align:middle}

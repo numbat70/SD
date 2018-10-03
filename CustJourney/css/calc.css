@@ -1,0 +1,138 @@
+
+.col9{
+      margin: 0px;
+      border-right-style: none;
+      width: 11%;
+      min-width:6em;
+      position: relative;
+      display: block;
+      float: left;
+}
+
+
+.fright{
+    position: relative;
+    display: block;
+    float: left;     
+}
+
+
+.removeUnwanted{
+
+}
+
+.removeUnwanted:hover{
+    background-color: green;
+    border-color: grey;  
+        border-radius: 2px; 
+ }
+
+.chosen{
+font-weight: bold;
+font-size: 1.1em;   
+}
+
+
+.clipChevron{
+/* -webkit-clip-path: polygon(95% 0, 98% 50%, 95% 100%, 0% 100%, 3% 50%, 0 0);
+clip-path: polygon(95% 0, 98% 50%, 95% 100%, 0% 100%, 3% 50%, 0 0);
+ */
+ 
+-webkit-clip-path: polygon(95% 0, 99% 50%, 95% 100%, 0% 100%, 4% 50%, 0 0);
+clip-path: polygon(95% 0, 99% 50%, 95% 100%, 0% 100%, 4% 50%, 0 0);
+
+}
+      
+
+.rowCalc{
+      text-align: left;
+      padding-bottom: 0.5em;
+      border-style: none;
+      padding-top: 0.4em;
+      margin: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 5px;
+      padding-bottom: 5px;      
+}
+
+.colGreen{
+      background-color: #17ed0b;
+      margin: 0px;
+      border-right-style: none;
+      height: 6em;
+      color: white;
+      vertical-align: bottom; 
+}
+
+.colBlue{
+      background-color: #3399ff;
+      margin: 0px;   
+      border-right-style: none;
+      height: 6em;
+      color: white;
+      vertical-align: text-bottom; 
+}
+
+.colPurple{
+      background-color: DarkSlateBlue ;
+      margin: 0px;
+      border-right-style: none;
+      height: 6em;
+      color: white;
+      vertical-align: bottom; 
+      bottom: 0;
+}
+
+.colItem{
+      border-bottom-style:solid;
+      border-bottom-color:white;
+      border-bottom-width:5px; 
+      color: black; 
+      margin: 0px;
+      padding-left: 2px;
+      padding-right: 2px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: left;
+      background-color: #f5f5f0;
+      
+      border-right-style:solid;
+      border-right-color:white;
+      border-right-width:5px;
+}
+
+.colItemBold{
+      vertical-align: bottom; 
+      border-color: grey;
+      border-bottom-style:none;
+      color: White;
+      font-weight: bold;
+      margin: 0px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align:center;
+      border-bottom-style:solid;
+      border-bottom-color:white;
+      border-bottom-width:5px;
+
+      border-right-style:solid;
+      border-right-color:white;
+      border-right-width:1px;     
+}
+
+.colItem:hover{
+      background-color: white;
+ }
+
+
+
+@media print {
+      .MKnoPrint { 
+            display: none; 
+      } 
+}
+
+

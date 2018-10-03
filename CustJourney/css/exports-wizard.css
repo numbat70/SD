@@ -1,0 +1,65 @@
+#working{font-size:150px}
+
+.toggle-button {
+  position: relative;
+  display: block;
+  background: white;
+  border: 1px solid;
+  height: 120px;;
+  padding: 1em;
+  color: #666;
+}
+
+.toggle-button:hover,
+.toggle-button:active {
+  text-decoration: none;
+  color: green;
+}
+
+.selected-icon {
+  display: none;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  }
+
+.toggle-button.active-icon .selected-icon {
+  display: block;
+}
+
+.toggle-button.active-icon {
+  text-decoration: none;
+  background: white !important;
+  color: green;
+}
+
+.toggle-location {
+  opacity: 0.2;
+  display: block;
+}
+
+.toggle-location img {
+  filter: grayscale(100%);
+}
+
+.toggle-location:hover,
+.toggle-location.active-location  {
+  opacity: 1;
+}
+
+.toggle-location img:hover,
+.toggle-location.active-location img {
+  filter: grayscale(0%);
+  border: 5px solid green;
+}
+
+section.about-business {
+  padding: 2em 0;
+  border-bottom: 1px solid;
+}
+
+
+.btn-group .btn.active {
+  background: green !important;
+  color: white !important;
+}
