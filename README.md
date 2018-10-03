@@ -7,7 +7,7 @@
 
 
 ## Tool Demos
-- Diagnostic
+- Diagnostic 
 
 ## Customer Journeys
 - Single Digital Access Point
