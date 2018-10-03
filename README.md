@@ -3,7 +3,7 @@
 ## Ideas & Vision
 - SD Vision
 - SD Backlog
-- SD Ideas
+- [SD Ideas](SD/ideas.html)
 
 
 ## Tool Demos
