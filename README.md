@@ -2,7 +2,7 @@
 
 ## Ideas & Vision
 - [SD Vision](vision.html) 
-- [D Backlog](backlog.html)
+- [SD Backlog](backlog.html)
 - [SD Ideas](ideas.html) 
 
 
