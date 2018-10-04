@@ -7,9 +7,8 @@
 
 
 ## Tool Demos
-- Diagnostic 
+- [Diagnostic](eu_diagnostic/index.html) 
 
 ## Customer Journeys
-- Single Digital Access Point
-
+- [Single Digital Access Point](CustJourney/CustJourneySingleAccess)
 
