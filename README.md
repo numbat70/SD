@@ -10,5 +10,5 @@
 - [Diagnostic](eu_diagnostic/index.html) 
 
 ## Customer Journeys
-- [Single Digital Access Point](CustJourney/CustJourneySingleAccess.html)
+- [Single Digital Access Point](CustJourney/CustJourneySingleAccess.html) 
 
