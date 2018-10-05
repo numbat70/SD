@@ -11,5 +11,5 @@
 
 ## Customer Journeys
 - [Single Digital Access Point](CustJourney/CustJourneySingleAccess.html)
-- [Example](CustJourney/Template.html)
+- [Example](CustJourney/template.html)
 
