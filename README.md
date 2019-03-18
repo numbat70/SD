@@ -13,3 +13,6 @@
 - [Single Digital Access Point](CustJourney/CustJourneySingleAccess.html)
 - [Example](CustJourney/template.html)
 
+## Tools
+- [GOV.UK Prototyping Toolkit info](toolkit.md)
+
