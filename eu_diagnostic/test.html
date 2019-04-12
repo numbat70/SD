@@ -91,28 +91,19 @@
    </div>
 	  <div class="col-sm-3">
 		<div class="panel panel-default">
-                <div class="panel-heading"><h4>Here is what you have told us so far</h4></div>
-            	<ul class="list-group">
-		    	<li class="list-group-item">
-			    <!-- <p>You have asked us for:</p> -->
-				<script>
-					//if (localStorage.advice) { document.write(localStorage.advice);} 
-        				//if (localStorage.networking) { document.write(localStorage.networking);} 
-        				//if (localStorage.customers) { document.write(localStorage.customers);} 
-        				//if (localStorage.skills) { document.write(localStorage.skills);} 
-        				//if (localStorage.events) { document.write(localStorage.events);}  
-        				//if (localStorage.funding) { document.write(localStorage.funding);} 
-        			</script>
-				
-				<script>
-				 	//if (localStorage.domestic) { document.write("<br>" +localStorage.domestic);}
-				</script>
-				
-				<div id="product"></div>
-				<div id="industry"></div>
-				<div id="experience"></div>
-			</li>
-		  </ul>
+                <div class="panel-heading"><h4>Feedback</h4></div>
+       		<!-- <section class="about-business">-->
+		
+		<div class="btn-group" data-toggle="buttons">
+		    <label class="btn btn-default" id="feedback1"> 
+			    <input type="radio" name="options" id="feedback1f">Feedback 1 
+		    </label>
+			
+		    <label class="btn btn-default" id="feedback1">
+		      <input type="radio" name="options" id="feedback1f"> Feedback 2 
+		    </label>
+		  </div>
+		<!-- </section>-->
             </div>
 	</div>
 	    </div>
@@ -146,97 +137,6 @@
       		});
 		
 	  </script>
-	  <script>
-		//lindustryOption1 Aerospace, defence and marine
-		//lindustryOption 2Chemical sciences
-		//lindustryOption3 Creative industries
-		//lindustryOption4 Financial services
-		//lindustryOption Food and drink
-		//lindustryOption 6Life sciences
-		//lindustryOption7 Manufacturing
-		//lother Other
 		  
-		<!--  Aerospace  -->		  
-     		$('#lindustryOption1').on('click', function(e){
-			localStorage.setItem("industry", "I am interested in Aerospace, defence and marine");
-			document.getElementById("industry").innerHTML = localStorage.industry;
-      		});
-		  
-		<!--  Chemicals   -->
-		$('#lindustryOption2').on('click', function(e){
-			localStorage.setItem("industry", "I am interested in Chemical sciences");
-			document.getElementById("industry").innerHTML = localStorage.industry;
-      		});
-
-		<!--  Creative  -->
-		$('#lindustryOption3').on('click', function(e){
-			localStorage.setItem("industry", "I am interested in Creative industries");
-			document.getElementById("industry").innerHTML = localStorage.industry;
-      		});
-	
-		<!--  Financial  -->
-		$('#lindustryOption4').on('click', function(e){
-			localStorage.setItem("industry", "I am interested in Financial services");
-			document.getElementById("industry").innerHTML = localStorage.industry;
-      		});
-		 
-		<!--  Food and Drink  -->
-		$('#lindustryOption5').on('click', function(e){
-			localStorage.setItem("industry", "I am interested in Food and Drink");
-			document.getElementById("industry").innerHTML = localStorage.industry;
-      		});		  
-		  
-		<!--  Life sciences  -->
-		$('#lindustryOption6').on('click', function(e){
-			localStorage.setItem("industry", "I am interested in Life sciences");
-			document.getElementById("industry").innerHTML = localStorage.industry;
-      		});		  
-		  
-		<!--  Manufacturing  -->
-		$('#lindustryOption7').on('click', function(e){
-			localStorage.setItem("industry", "I am interested in Manufacturing");
-			document.getElementById("industry").innerHTML = localStorage.industry;
-      		});		  
-		  
-		  
-		<!--  Other  -->
-		$('#lother').on('click', function(e){
-			localStorage.setItem("lother", "I am interested in other industries");
-			document.getElementById("industry").innerHTML = localStorage.industry;
-      		});
-			  
-		  
-	  </script>
-	  
-	  <script>
-      		$('#lexpoption1').on('click', function(e){
-			localStorage.setItem("experience", "I have no export experience");
-			document.getElementById("experience").innerHTML = localStorage.experience;
-      		});
-		
-		$('#lexpoption2').on('click', function(e){
-			localStorage.setItem("experience", "I have some export experience");
-			document.getElementById("experience").innerHTML = localStorage.experience;
-      		});
-		
-		$('#lexpoption3').on('click', function(e){
-			localStorage.setItem("experience", "I have lots of export experience");
-			document.getElementById("experience").innerHTML = localStorage.experience;
-      		});
-		
-	  </script>
-	  
-	  	<script type="text/javascript">
-    		window._mfq = window._mfq || [];
-    		(function() {
-        			var mf = document.createElement("script");
-        			mf.type = "text/javascript"; mf.async = true;
-        			mf.src = "//cdn.mouseflow.com/projects/5b17d573-2504-4f69-8fb4-6a04c6c6dcf3.js";
-        			document.getElementsByTagName("head")[0].appendChild(mf);
-    			})();
-		</script>
-	  
-	  
-	  
     </body>
 </html>
