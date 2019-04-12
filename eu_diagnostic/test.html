@@ -65,23 +65,7 @@
 		    </label>
 		  </div>
 	</section>
-	      
-	<section class="about-business">
-  	      <p><strong>Which industries do you trade in?</strong></p>
-		<div class="btn-group" data-toggle="buttons">
-		    <label class="btn btn-default industry" id="lindustryOption1">
-		      <input type="radio" name="options" id="industryOption1"> Aerospace, defence and marine
-		    </label>
-		    <label class="btn btn-default industry" id="lindustryOption2">
-		      <input type="radio" name="options" id="industryOption2"> Chemical sciences
-		    </label>
-		  </div>
-          <br><br>
-
-	 </section>
-	      
- 
-	      
+	     	      
        <div class="actions text-center">
          <a href="index.html" class="back-link">Back</a>
          <button id="primary" onClick="parent.location='index2.html'">Next</button>
@@ -126,14 +110,12 @@
 	
 	
     	<script>
-      		$('#loption1').on('click', function(e){
-			localStorage.setItem("product", "I sell Products");
-			document.getElementById("product").innerHTML = localStorage.product;
+      		$('#feedback1f').on('click', function(e){
+			window.location = "http://news.bbc.co.uk";
       		});
 		
-		$('#loption2').on('click', function(e){
-			localStorage.setItem("product", "I sell Services");
-			document.getElementById("product").innerHTML = localStorage.product;
+		$('#feedback2f').on('click', function(e){
+			window.location = "http://news.bbc.co.uk";
       		});
 		
 	  </script>
